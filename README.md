@@ -15,12 +15,3 @@ O WhiteBlood foi desenvolvido em duas linguagens: Python e C++. O Python é usad
 A DLL reescreve a função `NtWriteFile` do Windows. Ela monitora essa função em uma janela de tempo de 1 segundo. Se a função for chamada mais de 5 vezes nesse intervalo, a DLL troca a chamada de `NtWriteFile` para `NtClose`. Isso é feito sem que o processo saiba da mudança.
 
 O objetivo dessa troca é duplo. Primeiro, ela impede o processo. Segundo, ela dá tempo para que o processo se auto-encerre.
-
-## Download
-
-Você pode baixar o WhiteBlood diretamente do nosso site. Siga as instruções na seção de instalação para instalar e executar o programa.
-
-Registre-se no site, vá na aba Download e baixe o executável, altere a extensão para .exe.
-https://prounerscybr.tech/
-
-Esperamos que você ache o WhiteBlood útil! Se tiver alguma dúvida ou precisar de ajuda, não hesite em abrir uma issue no nosso repositório do GitHub.
